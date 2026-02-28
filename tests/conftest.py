@@ -9,4 +9,4 @@ def logged_in_page(page):
     page.goto("https://rahulshettyacademy.com/client/#/auth/login")
     login.login("angy.gama@gmail.com", "Poiuytr5+")
 
-    yield page
+    yield page # executed in each test
